@@ -19,7 +19,7 @@ from google.appengine.ext import testbed
 
 # Import the module under test
 import bot
-from events import Event, event_factory
+# from events import Event, event_factory
 
 class BotTest(unittest.TestCase):
     ROOM_DISPLAY_NAME = 'Bot Testing'
